@@ -1,0 +1,31 @@
+body{
+    background-image: url(/practica3css/imgs/fallingcat.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+body{
+    background-image: url(/practica3css/imgs/hartcat.png);
+    background-size: 100px;
+    background-repeat: repeat;
+}
+
+body{
+    background-image: url(/practica3css/imgs/patron.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+body{
+    background-image: url(/practica3css/imgs/plumas.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+}
+
+p{
+    margin-right: 500px;
+    font-size: 20px;
+}
