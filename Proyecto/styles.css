@@ -1,12 +1,22 @@
+body{
+    text-align: left;
+    background-color: aliceblue;
+}
 h1{
     font-family: "Dancing script", serif;
     font-weight: 900;
     font-style: normal;
     font-size: 4rem;
+    text-align: center;
+    background-color: orange;
+    border-radius: 100%;
 }
 
 h2{
+    font-family: "Averia Libre", serif;
     font-size: 2rem;
+    background-color: rgb(255, 251, 0);
+    display: inline;
 }
 
 
@@ -15,6 +25,8 @@ p{
     font-weight: 200;
     font-size: 1.5rem;
 }
+
+
 
 .card{
     border-style: solid;
