@@ -1,6 +1,7 @@
 body{
     text-align: left;
-    background-color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    color: cornsilk;
 }
 h1{
     font-family: "Dancing script", serif;
@@ -16,6 +17,7 @@ h2{
     font-family: "Averia Libre", serif;
     font-size: 2rem;
     background-color: rgb(255, 251, 0);
+    color: black;
     display: inline;
 }
 
@@ -24,9 +26,23 @@ p{
     font-family: "Averia Libre", serif;
     font-weight: 200;
     font-size: 1.5rem;
+    color: cornsilk;
+    background-color: black;
 }
 
+.ficha{
+    display: flex;
+    justify-content: center;
+}
+form{
+    font-size: xx-large;
+    
+}
 
+input{
+    font-size: xx-large;
+    border-radius: 10%;
+}
 
 .card{
     border-style: solid;
