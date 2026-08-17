@@ -6,18 +6,18 @@
     <title>My Web Page</title>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <h1>Hello, People!</h1>
 
     <script>
-        let numero1, numero2;
+      let name, numero1, numero2, numero3;
 
-        numero1 = Number(prompt("Ingrese el primer número:"));
-        numero2 = Number(prompt("Ingrese el segundo número:"));
-
-        let total = numero1 + numero2;
-        alert("La suma de los dos números es: " + total);
-
-
+      name = prompt("Ingrese su nombre:");
+      numero1 = Number(prompt("Ingrese el primer número:"));
+      numero2 = Number(prompt("Ingrese el segundo número:"));
+      numero3 = Number(prompt("Ingrese el tercer número:"));
+      
+      let total = (numero1 * 0.3) + (numero2 * 0.35) + (numero3 * 0.35);
+      document.write("Hola, " + name + "! El resultado es: " + total);
     </script>
 
 </body>
